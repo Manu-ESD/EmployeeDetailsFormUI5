@@ -62,7 +62,7 @@ sap.ui.define([
 				var sJson = JSON.stringify(result);
             console.log("JSON data:", sJson);
             this.getView().byId("Resultdisplay").setValue("JSON data:\n"+sJson);
-				MessageToast.show("Submitted Succesfully!");
+				MessageToast.show("Submitted Succesfully :)");
 			}
 			// do something with the value of firstName
 		}
